@@ -20,7 +20,7 @@ a:hover {
 /* Estilos do Cabeçalho */
 header {
 	background-color: #333;
-	padding: 20px;
+	padding: 27px;
 }
 
 nav ul {
@@ -42,13 +42,14 @@ nav ul li:first-child {
 nav ul li a {
 	color: #fff;
 	font-weight: bold;
+	font-size: 22px;
 }
 
-/* Estilos do Herói */
-.hero {
+/* Estilos do conteúdo principal */
+.principal {
 	background-position: center;
 	background-size: cover;
-	text-align: center;
+	text-align: left;
 	padding: 50px 0;
 	color: #fff;
 	display: flex;
@@ -56,21 +57,21 @@ nav ul li a {
 	align-items: center;
 }
 
-.hero h1 {
-	font-size: 48px;
-	margin: 0;
+.principal h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
-.hero p {
-	font-size: 24px;
-	margin: 20px 0 30px;
+.principal p {
+	font-size: 18px;
 }
 
-.btn-play {
+.call-to-action {
 	background-color: #fff;
 	color: #333;
 	padding: 15px 30px;
 	border: none;
+	margin: 20px 200px 0px;
 	border-radius: 25px;
 	font-size: 18px;
 	font-weight: bold;
@@ -78,26 +79,22 @@ nav ul li a {
 	transition: all 0.3s ease;
 }
 
-.btn-play:hover {
+.call-to-action:hover {
 	background-color: #333;
 	color: #fff;
 }
 
-.hero-img {
-	flex: 1;
-	margin-left: 50px;
+.imagem-principal {
+	margin: 8px 40px 0px 0px;
 	position: relative;
-}
-
-.hero-img img {
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	max-width: 100%;
-	max-height: 100%;
 	border-radius: 10px;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.texto-principal {
+	margin: 105px 160px 0px 90px;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Estilos dos Recursos */
@@ -125,21 +122,6 @@ nav ul li a {
 	font-size: 24px;
 	display: flex;
 	align-items: center;
-}
-
-.features li i {
-	margin-right: 10px;
-	color: #fff;
-}
-
-.features li:nth-child(odd) {
-	background-color: #23527c;
-	padding: 10px 20px;
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.features li:nth-child(even) {
 	background-color: #23527c;
 	padding: 10px 20px;
 	border-radius: 10px;
@@ -148,7 +130,6 @@ nav ul li a {
 
 /* Estilos das Capturas de Tela */
 .screenshots {
-	background-color: #252525;
 	padding: 80px 0;
 	text-align: center;
 }
@@ -158,14 +139,14 @@ nav ul li a {
 	margin: 0;
 }
 
-.image-gallery {
+.imagens {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 40px;
 }
 
-.image-gallery img {
+.imagens img {
 	width: 300px;
 	height: auto;
 	margin: 20px;
@@ -173,20 +154,20 @@ nav ul li a {
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos do Call-to-Action */
-.cta {
+/* Estilos do Recall-to-Action */
+.recall-to-action {
 	background-color: #333;
 	padding: 80px 0;
 	text-align: center;
 	color: #fff;
 }
 
-.cta h2 {
+.recall-to-action h2 {
 	font-size: 36px;
 	margin: 0;
 }
 
-.cta p {
+.recall-to-action p {
 	font-size: 24px;
 	margin: 20px 0 30px;
 }
